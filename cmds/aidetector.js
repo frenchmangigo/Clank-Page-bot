@@ -1,8 +1,8 @@
 const axios = require('axios');
-const { sendMessage } = require('../handles/sendMessage');
+const { sendMessage } = require('../handles/message');
 const fs = require('fs');
  
-const token = fs.readFileSync('token.txt', 'utf8');
+const token = fs.readFileSync('configure.json', 'utf8');
  
 module.exports = {
   name: 'aidetector',
