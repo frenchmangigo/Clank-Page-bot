@@ -18,7 +18,7 @@ const colors = {
 
 const VERIFY_TOKEN = 'pagebot-v3';
 
-app.use(express.static(path.join(__dirname, 'Wala')));
+app.use(express.static(path.join(__dirname, 'wala')));
 
 const loadMenuCommands = async () => {
   try {
