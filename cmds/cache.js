@@ -34,7 +34,7 @@ module.exports = {
         sendLongMessage(bot, visionResponse, authToken);
       } else {
         
-        const apiUrl = `https://rest-api-french2.onrender.com/api/clarencev2`;
+        const apiUrl = `https://rest-api-french3.onrender.com/api/clarencev2`;
         const response = await axios.get(apiUrl, {
           params: {
             prompt: userPrompt,
